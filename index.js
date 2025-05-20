@@ -1,1 +1,3 @@
-function greet() {}// Your code here
+function greet() {}
+
+let name = prompt("What is your name?");
