@@ -1,1 +1,1 @@
-// Your code here
+function greet() {}// Your code here
