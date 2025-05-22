@@ -5,7 +5,9 @@ let name = prompt("What is your name?");
 alert("Hello, " + name);
 
 let ageInput = prompt("How old are you?");
-let age = parseInt(ageInput);
+var age = parseInt(ageInput);
+
+var hadBirthday = confirm("Did you have a birthday this year?");
 
 
 }
