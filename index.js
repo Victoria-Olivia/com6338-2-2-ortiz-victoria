@@ -12,7 +12,8 @@ var hadBirthday = confirm("Did you have a birthday this year?");
 
 var currentYear = new Date().getFullYear();
 
-var birthyear
+var birthyear;
+
 if (hadBirthday) {
     birthyear = currentYear - age;
 } else {
