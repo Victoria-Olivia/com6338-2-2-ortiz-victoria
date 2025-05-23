@@ -20,5 +20,4 @@ if (hadBirthday) {
 }
 
 alert("You were born in " + birthyear + ".");
-
 }
