@@ -1,20 +1,18 @@
 function greet() {
   var name = prompt("What is your name?");
-
-  alert("Hello, " + name);
+  alert("Hello, " + name + "!");
 
   var ageInput = prompt("How old are you?");
   var age = parseInt(ageInput, 10);
 
-  var hadBirthday = confirm("Did you have a birthday this year?");
+  var hasHadBirthday = confirm("Did you have a birthday this year?");
   
   var currentYear = new Date().getFullYear();
   var birthyear;
-  if (hadBirthday) {
+  if (hasHadBirthday) {
       birthyear = currentYear - age;
   } else {
       birthyear = currentYear - age - 1;
   }
-  alert("You were born in " + birthyear + ".");
-
+  alert("You were born in " + birthyear);
 }
