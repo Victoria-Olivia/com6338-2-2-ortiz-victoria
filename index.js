@@ -4,7 +4,7 @@ function greet() {
   alert("Hello, " + name);
 
   var ageInput = prompt("How old are you?");
-  var age = parseInt(ageInput);
+  var age = parseInt(ageInput, 10);
 
   var hadBirthday = confirm("Did you have a birthday this year?");
   
